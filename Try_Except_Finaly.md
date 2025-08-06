@@ -10,6 +10,7 @@ try:
 except ZeroDivisionError:
     print("Error: División por cero")
  ```
+<br>
 
 ## Except   
 
@@ -24,6 +25,7 @@ except ZeroDivisionError:
 except ValueError:
     print("Error: Valor inválido")
  ```
+<br>
 
 ## Finally   
 
@@ -39,6 +41,7 @@ except FileNotFoundError:
 finally:
     archivo.close()  # Cerrar el archivo siempre, incluso si ocurre una excepción
 ```
+<br>
 
 ## Excepciones personalizadas   
 
